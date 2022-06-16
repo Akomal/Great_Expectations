@@ -1,6 +1,6 @@
-## Great_Expectations
-#Before running this code initialize great expectations using terminal through great_expectations init 
-#To run this code add following validation action operators in greatexpectations.yaml file
+#Great_Expectations
+1. Before running this code initialize great expectations using terminal through great_expectations init 
+2. To run this code add following validation action operators in greatexpectations.yaml file
 validation_operators:
   action_list_operator:
     class_name: ActionListValidationOperator
@@ -14,4 +14,4 @@ validation_operators:
       - name: update_data_docs
         action:
           class_name: UpdateDataDocsA
-   #These expectations are built on claims dataset from FHIR database. 
+   3. These expectations are built on claims dataset from FHIR database. 
